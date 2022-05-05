@@ -1,0 +1,13 @@
+{
+    "name": "Vanishing Elements",
+    "version": "1.0.1",
+    "description": "Yeah",
+    "content_scripts": [{
+        "matches": ["https://*/*"],
+        "js": ["vanishing.js"]
+    }],
+    "manifest_version": 3,
+    "icons": {
+        "128": "icon128.png"
+    }
+}
